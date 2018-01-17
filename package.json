@@ -4,6 +4,7 @@
   "dependencies": {
     "autoprefixer-core": "^5.2.1",
     "bower": "^1.8.2",
+    "compass": "^0.1.1",
     "grunt": "^0.4.5",
     "grunt-angular-templates": "^0.5.7",
     "grunt-cli": "^1.2.0",
@@ -43,6 +44,7 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js",
-    "start": "grunt serve --force"
+    "postinstall": "bower cache clean && bower install",
+    "start": "grunt serve"
   }
 }

@@ -44,7 +44,10 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js",
-    "postinstall": "bower cache clean && bower install",
-    "start": "grunt serve"
+    "start": "npm install --global yo bower grunt-cli &&
+
+npm install -g generator-angular &&
+
+yo angular && grunt serve"
   }
 }

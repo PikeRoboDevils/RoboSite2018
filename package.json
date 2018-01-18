@@ -55,6 +55,6 @@
   "scripts": {
     "test": "karma start test/karma.conf.js",
     "start": "grunt serve",
-    "heroku-prebuild": "bower install"
+    "postinstall": "bower install"
   }
 }

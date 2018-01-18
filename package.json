@@ -55,6 +55,6 @@
   "scripts": {
     "test": "karma start test/karma.conf.js",
     "start": "grunt serve",
-    "postinstall": "bower install"
+    "postinstall": "bower install && sudo gem install compass"
   }
 }

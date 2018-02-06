@@ -8,10 +8,10 @@
  * Controller of the yoApp
  */
 angular.module('yoApp')
-  .controller('ReachCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('ReachCtrl', function () {
+        this.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
+    });

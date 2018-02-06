@@ -8,13 +8,7 @@
  * Controller of the yoApp
  */
 angular.module('yoApp')
-  .controller('MovieViewCtrl', function (
-  	$scope,
-  	$routeParams,
-  	Movie
-  	) {
-    $scope.viewMovie = true;
-    $scope.movie = Movie.one($routeParams.id).get().$object;
-  });
-
-
+    .controller('MovieViewCtrl', function ($scope, $routeParams, Movie) {
+        $scope.viewMovie = true;
+        // $scope.movie = Movie.one($routeParams.id).get().$object;
+    });

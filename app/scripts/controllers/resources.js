@@ -8,10 +8,10 @@
  * Controller of the yoApp
  */
 angular.module('yoApp')
-  .controller('ResourcesCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('ResourcesCtrl', function () {
+        this.awesomeThings = [
+            'HTML5 Boilerplate',
+            'AngularJS',
+            'Karma'
+        ];
+    });

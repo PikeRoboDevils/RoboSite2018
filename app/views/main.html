@@ -1,130 +1,112 @@
-  <div class="container-fluid slider noSpace">
+<div class="container-fluid slider noSpace">
     <img ng-repeat="slide in slides" class="slide rotate nonDraggableImage blur"
          ng-hide="!isCurrentSlideIndex($index)" ng-src="images/slideR/{{slide.image}}">
-
-        <!-- <a class="arrow prev" href="#!/" ng-click="callNext()"></a>
-        <a class="arrow next" href="#!/" ng-click="nextSlide()"></a> -->
-
-        <!-- image size is 900x300 -->
     <nav class="slide-nav">
-      <div class="slide-wrapper">
-        <ul class="dots">
-          <li class="dot" ng-repeat="slide in slides" ui-jq="fadeIn">
-              <a href="#!/" ng-class="{'active':isCurrentSlideIndex($index)}"
-              ng-click="setCurrentSlideIndex($index);"></a>
-          </li>
-        </ul>
-      </div>
+        <div class="slide-wrapper">
+            <ul class="dots">
+                <li class="dot" ng-repeat="slide in slides" ui-jq="fadeIn">
+                    <a href="#!/" ng-class="{'active':isCurrentSlideIndex($index)}"
+                       ng-click="setCurrentSlideIndex($index);"></a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-  </div>
+</div>
 
-  <div class="jumbotron noSpace" style="border-radius: 0px;">
-    <!--     <h>YOUR MOM!!!!!!!</h1>
-    <p class="lead">
-      <img src="images/b1.jpg" width="600" height="450" alt="I'm Yeoman"><br>
-      Robodevils
-    </p>
-    <p><a class="btn btn-lg btn-success" ng-href="#!/movies">Splenttttttdid!<span class="glyphicon glyphicon-ok"></span></a></p> -->
-    <p>"There are 3 Guarantees in life - Death, Taxes, and <strong>Team 1018</strong> will be World Champions!"</p>
+<div class="jumbotron noSpace" style="border-radius: 0px;">
+    <p>"There are 3 Guarantees in life - Death, Taxes, and <strong>Team 1018</strong> will be World
+        Champions!"</p>
     <p>~ Lenny De La Cruz</p>
-  </div>
+</div>
 
-  <div class="black-bar">
-      <div class="container-fluid">
-        <div><!-- <p><span class="glyphicon glyphicon-heart"></span>from da boys an gurls down at the robodevils</p> -->
-        <div class="other-box">
-            <p class="bank" style="font-size: 32px; color: white;">Follow us here -></p>
-        </div>
+<div class="black-bar">
+    <div class="container-fluid">
+        <div>
+            <div class="other-box">
+                <p class="bank" style="font-size: 32px; color: white;">Follow us here -></p>
+            </div>
 
-          <div class="foot-box">
-            <div class="image-box float-right">
-                <a href="https://twitter.com/robodevil1018">
-                  <img src="images/SM/tbl.png" height="50px" width="50px">
-                  <!-- <div class="overlay-sm"></div> -->
-                </a>
+            <div class="foot-box">
+                <div class="image-box float-right">
+                    <a href="https://twitter.com/robodevil1018">
+                        <img src="images/SM/tbl.png" height="50px" width="50px">
+                        <!-- <div class="overlay-sm"></div> -->
+                    </a>
+                </div>
+                <div class="image-box float-right" style="padding-top: 7px; padding-left: 3px;">
+                    <a href="https://www.instagram.com/robodevil1018/?hl=en">
+                        <img src="images/SM/instabl.png" height="40px" width="40px">
+                    </a>
+                </div>
+                <div class="image-box float-right">
+                    <a href="https://www.facebook.com/RoboDevils1018/">
+                        <img src="images/SM/fblogo6.png" height="50px" width="50px">
+                    </a>
+                </div>
             </div>
-            <div class="image-box float-right" style="padding-top: 7px; padding-left: 3px;">
-              <a href="https://www.instagram.com/robodevil1018/?hl=en">
-                <img src="images/SM/instabl.png" height="40px" width="40px">
-              </a>
-            </div>
-            <div class="image-box float-right">
-              <a href="https://www.facebook.com/RoboDevils1018/">
-                <img src="images/SM/fblogo6.png" height="50px" width="50px">
-              </a>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
+</div>
 
-  <div class="row marketing noSpace noSpace-top white margin-left">
+<div class="row marketing noSpace noSpace-top white margin-left">
     <p class="right-image">
-    <a>
-      <img src="images/layout/pikeLogo.jpg" width="250" height="150" alt="I'm Yeoman">
-      </a>
+        <a>
+            <img src="images/layout/pikeLogo.jpg" width="250" height="150" alt="I'm Yeoman">
+        </a>
     </p>
     <div class="words-left">
-      <!-- <h4><strong>Mission Statement</strong></h4>
-      <p>
-        3 guarantess
-        - Death
-        - Taxes
-        - !018 will be world champs
-      </p> -->
-      <a href="http://www.pike.k12.in.us/4/home">
-        <h4><strong>Pike High School</strong></h4>
-      </a>
-      <p>
-        Life is a journey… it is not the destination that counts so much as who you have along for the ride. We each have a story, stories of people who were, are and will be a part of our life’s journey. Schools are full of examples of the importance of relationships. Staff, students, parents, volunteers, and community members who make a difference. It’s the doors we open for our students that make a difference. In Pike Township, we make a difference in the lives of our scholars.     
-      </p>
+        <a href="http://www.pike.k12.in.us/4/home">
+            <h4><strong>Pike High School</strong></h4>
+        </a>
+        <p>
+            Life is a journey… it is not the destination that counts so much as who you have along
+            for the ride. We each have a story, stories of people who were, are and will be a part
+            of our life’s journey. Schools are full of examples of the importance of relationships.
+            Staff, students, parents, volunteers, and community members who make a difference. It’s
+            the doors we open for our students that make a difference. In Pike Township, we make a
+            difference in the lives of our scholars.
+        </p>
     </div>
-  </div>
+</div>
 
-  <div class="row marketing noSpace noSpace-top gray margin-left">
+<div class="row marketing noSpace noSpace-top gray margin-left">
     <p class="left-image">
-    <a>
-      <img src="images/layout/frc.png" width="180" height="150" alt="I'm Yeoman">
-      </a>
+        <a>
+            <img src="images/layout/frc.png" width="180" height="150" alt="I'm Yeoman">
+        </a>
     </p>
     <div class="words-right">
-      <!-- <h4><strong>Mission Statement</strong></h4>
-      <p>
-        3 guarantess
-        - Death
-        - Taxes
-        - !018 will be world champs
-      </p> -->
 
-     <a href="http://www.pike.k12.in.us/4/home">
-      <h4 class="title-link"><strong>What is frc</strong></h4>
-    </a>
-      <p>
-        Each year, 1018 participates in the FIRST program that is geared toward high school students, the FIRST Robotics Competition, or FRC for short. With the help of their mentors, students have six weeks to fund, design, build, and program a robot that will complete certain tasks. To put their work to the ultimate test, the team goes on to compete at district, state, and eventually international level competitions.  s
-      </p>
+        <a href="http://www.pike.k12.in.us/4/home">
+            <h4 class="title-link"><strong>What is frc</strong></h4>
+        </a>
+        <p>
+            Each year, 1018 participates in the FIRST program that is geared toward high school
+            students, the FIRST Robotics Competition, or FRC for short. With the help of their
+            mentors, students have six weeks to fund, design, build, and program a robot that will
+            complete certain tasks. To put their work to the ultimate test, the team goes on to
+            compete at district, state, and eventually international level competitions. s
+        </p>
     </div>
-  </div>
+</div>
 
-  <div class="row marketing noSpace-top white margin-left last-radius">
+<div class="row marketing noSpace-top white margin-left last-radius">
     <p class="right-image">
-      <a>
-      <img src="images/layout/stem.png" width="180" height="150" alt="I'm Yeoman">
-      </a>
+        <a>
+            <img src="images/layout/stem.png" width="180" height="150" alt="I'm Yeoman">
+        </a>
     </p>
     <div class="words-left">
-      <!-- <h4><strong>Mission Statement</strong></h4>
-      <p>
-        3 guarantess
-        - Death
-        - Taxes
-        - !018 will be world champs
-      </p> -->
-
-      <a href="http://www.pike.k12.in.us/4/home">
-      <h4 class="title-link"><strong>What is STEM</strong></h4>
-      </a>
-      <p>
-As the world continues to innovate and progress, the number of jobs involved in science, technology, engineering, and mathematics (STEM) continues to rise, but there are not enough people to satisfy the demand for workers, so many positions are left unfilled. In recent years, the principles of STEM has become the focus of many curriculums, clubs, and organizations to inspire and empower the next generation to take on careers involved in STEM and fill the many vacancies.       </p>
+        <a href="http://www.pike.k12.in.us/4/home">
+            <h4 class="title-link"><strong>What is STEM</strong></h4>
+        </a>
+        <p>
+            As the world continues to innovate and progress, the number of jobs involved in science,
+            technology, engineering, and mathematics (STEM) continues to rise, but there are not
+            enough people to satisfy the demand for workers, so many positions are left unfilled. In
+            recent years, the principles of STEM has become the focus of many curriculums, clubs,
+            and organizations to inspire and empower the next generation to take on careers involved
+            in STEM and fill the many vacancies. </p>
     </div>
-  </div>
+</div>

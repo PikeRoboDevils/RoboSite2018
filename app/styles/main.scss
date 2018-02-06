@@ -36,6 +36,10 @@ body {
   }
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -89,3 +93,5 @@ body {
     border-bottom: 0;
   }
 }
+
+@import "pike";

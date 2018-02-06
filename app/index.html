@@ -21,38 +21,8 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <!-- Add your site or application content here -->
-    <!-- <div class="header">
-      <div class="navbar navbar-default nav-color-pike" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-             <img alt="Brand" src="under.jpg" width="30px" height="30px">
-            </a>
-
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              r<span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-
-            <a class="navbar-brand" href="#!/">yo</a>
-          </div>
-
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
-
-            <ul class="nav navbar-nav">
-              <li ng-class="{'active-pike':selectedTab === 'home'}" ng-click="selectedTab = 'home'"><a href="#!/">Home</a></li>
-              <li ng-class="{'active-pike':selectedTab === 'movies'}" ng-click="selectedTab = 'movies'"><a ng-href="#!/movies">Students</a></li>
-              <li ng-class="{'active-pike':selectedTab === 'peoples'}" ng-click="selectedTab = 'peoples'"><a ng-href="#!/peopleT">Peoples</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="noSpace moreSpace pike-container">
-      <div class="container-fluid">
+      <div class="container-fluid ">
       <center>
         <img style="margin-left: 20px;" src="images/layout/1018Supreme.png" width="800" height="200">
       </center>
@@ -71,7 +41,6 @@
               <ul class="nav navbar-nav" ng-init="selectedTab = 'home'">
                 <li ng-class="{'active':selectedTab === 'home'}" ng-click="selectedTab = 'home'"><a href="#!/"><span class="bank">Home</span></a></li>
                 <li ng-class="{'active':selectedTab === 'movies'}" ng-click="selectedTab = 'movies'"><a ng-href="#!/team-page"><span class="bank">Team</span></a></li>
-<!--                 <li ng-class="{'active':selectedTab === 'sponsors'}" ng-click="selectedTab = 'sponsors'"><a ng-href="#!/sponsors"><span class="bank">Sponsors</span></a></li> -->
 
 
                 <li ng-class="{'active':selectedTab === 'sponsors'}" ng-click="selectedTab = 'sponsors'">
@@ -80,16 +49,9 @@
                     <span class="glyphicon glyphicon-triangle-bottom"></span> 
                     </span>
                   </a>
-                  <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item bank" href="#">Action</a>
-                    <br>
-                    <a class="dropdown-item bank" href="#">Another action</a>
-                    <a class="dropdown-item bank" href="#">Something else here</a>
-                  </div> -->
                   <ul class="dropdown-menu bank" aria-labelledby="dropdownMenuButton">
                     <li><a ng-href="#!/sponsors">Sponsor List</a></li>
                     <li><a href="recs/sponsor.pdf" target="_blank">Become a Sponsor</a></li>
-                    <!-- <li><a href="#!/"></a></li> -->
                   </ul>
                 </li>
 
@@ -97,57 +59,7 @@
                 <li ng-class="{'active':selectedTab === 'media'}" ng-click="selectedTab = 'media'"><a ng-href="#!/media"><span class="bank">Media</span></a></li>
                 <li ng-class="{'active':selectedTab === 'resources'}" ng-click="selectedTab = 'resources'"><a ng-href="#!/resources"><span class="bank">Resources</span></a></li>
                 <li ng-class="{'active':selectedTab === 'first'}" ng-click="selectedTab = 'first'"><a ng-href="#!/events"><span class="bank">Events</span></a></li>
-                <!-- <li ng-class="{'active':selectedTab === 'bot'}" ng-click="selectedTab = 'bot'"><a ng-href="#!/">
-                  <div class="">
-                    <button class="bank" style="border: none;" type="button" id="dropdownMenuButton" data-toggle="dropdown" href="#!/" aria-haspopup="true" aria-expanded="false">
-                      Seasons
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                      <a class="dropdown-item" href="#">Action</a>
-                      <a class="dropdown-item" href="#">Another action</a>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                  </div></a>
-                </li> -->
-
-
-
-<!--                 <li ng-class="{'active':selectedTab === 'seasons'}" ng-click="selectedTab = 'seasons'">
-                  <a type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <span class="bank season-nav a-atts">Seasons
-                    <span class="glyphicon glyphicon-triangle-bottom"></span> 
-                    </span>
-                  </a>
-                  <ul class="dropdown-menu bank" aria-labelledby="dropdownMenuButton">
-                    <li><a ng-href="#!/seasons">2016-2017</a></li>
-                    <li><a ng-href="#!/2017-2018">2017-2018</a></li>
-                  </ul>
-                </li> -->
-
-
-               <!--  <li ng-class="{'active':selectedTab === 'seasons'}" ng-click="selectedTab = 'seasons'">
-                   <a href="#!/" class="bank season-nav" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                       <li><a href="#">Action</a></li>
-                       <li><a href="#">Another action</a></li>
-                       <li><a href="#">Something else here</a></li>
-                       <li class="divider"></li>
-                       <li><a href="#">Separated link</a></li>
-                       <li class="divider"></li>
-                       <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li> -->
-<!--                 <li ng-class="{'active':selectedTab === 'seasons'}" ng-click="selectedTab = 'seasons'">
-                  <button class="bank a-atts season-nav" type="button" data-toggle="dropdown">Seasons
-                  <span class="caret"></span></button>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                  </ul>
-                </li> -->
                 <li ng-class="{'active':selectedTab === 'reach'}" ng-click="selectedTab = 'reach'"><a ng-href="#!/contact"><span class="bank">Contact</span></a></li>
-                <!-- <li ng-class="{'active':selectedTab === 'contact'}" ng-click="selectedTab = 'contact'"><a ng-href="#!/contact"><span class="bank">Contact Us</span></a></li> -->
               </ul>
             </div>
           </div>
@@ -161,13 +73,10 @@
           </div>
         </div>
 
-<!--       <div class="scroll-icon">
-        <img src="black-panther.png" height="200px" width="250px">
-      </div> -->
 
     <div class="footer footer-color gray footer-margin" style="padding-top: 0px; margin-top: 0px; height: 0px;">
       <div class="container-fluid more">
-        <div><!-- <p><span class="glyphicon glyphicon-heart"></span>from da boys an gurls down at the robodevils</p> -->
+        <div>
           <div class="foot-box">
             <div class="image-box float-right">
               <a href="https://twitter.com/robodevil1018">
@@ -194,7 +103,7 @@
             </div>
             <br>
             <p>
-              Made from Scratch by the Members of <strong>Team 1018</strong></p>
+              Made from Scratch by the Members of <strong>Team 1018</strong>
             </p>
 
           </div>

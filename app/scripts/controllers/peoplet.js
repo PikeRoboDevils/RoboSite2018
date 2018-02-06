@@ -8,6 +8,6 @@
  * Controller of the yoApp
  */
 angular.module('yoApp')
-  .controller('PeopletCtrl', function ($scope, People) {
-    $scope.peopleObject = People.getList().$object;
-  });
+    .controller('PeopletCtrl', function ($scope, People) {
+        // $scope.peopleObject = People.getList().$object;
+    });
